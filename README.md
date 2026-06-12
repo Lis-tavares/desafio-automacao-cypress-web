@@ -59,7 +59,7 @@ Antes de executar o projeto, é necessário possuir instalado:
 Clone o repositório:
 
 ```bash
-git clone <url-do-repositorio>
+git clone (https://github.com/Lis-tavares/desafio-automacao-cypress-web.git)
 ```
 
 Acesse a pasta do projeto:
@@ -101,6 +101,13 @@ cypress
 │   ├── busca.cy.js
 │   ├── carrinho.cy.js
 │   └── checkout.cy.js
+│
+├── features
+│   ├── login.feature
+│   ├── busca.feature
+│   ├── carrinho.feature
+│   └── checkout.feature
+│
 ├── fixtures
 └── support
 
@@ -129,9 +136,11 @@ Conforme solicitado no desafio, foram automatizados os seguintes fluxos:
 
 O desafio original previa a utilização de Cucumber para escrita dos cenários em BDD.
 
-Durante o desenvolvimento foi realizada a configuração e execução dos cenários utilizando Cypress e Cucumber. Entretanto, devido a incompatibilidades de versão entre os pacotes utilizados e o Cypress, a implementação final foi consolidada em Cypress com JavaScript puro, preservando integralmente a cobertura dos requisitos solicitados no desafio.
+Durante o desenvolvimento foi realizada a configuração e execução dos cenários utilizando Cypress e Cucumber. Entretanto, foram identificadas incompatibilidades entre versões dos pacotes utilizados pelo Cucumber e o Cypress durante a fase final de consolidação do projeto.
 
-Os cenários automatizados contemplam todos os requisitos funcionais solicitados para o desafio Web e podem ser executados normalmente através do Cypress.
+Para garantir a estabilidade da entrega e a execução dos testes automatizados dentro do prazo proposto, a implementação final foi disponibilizada em Cypress com JavaScript puro, preservando integralmente a cobertura dos requisitos funcionais solicitados.
+
+Os cenários em formato Gherkin foram mantidos em arquivos `.feature` como documentação dos fluxos automatizados.
 
 ---
 

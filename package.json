@@ -23,7 +23,6 @@
     ]
   },
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
     "cypress": "^15.17.0",
     "esbuild": "^0.24.2"
