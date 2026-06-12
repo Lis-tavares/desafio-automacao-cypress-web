@@ -59,7 +59,7 @@ Antes de executar o projeto, é necessário possuir instalado:
 Clone o repositório:
 
 ```bash
-git clone (https://github.com/Lis-tavares/desafio-automacao-cypress-web.git)
+git clone https://github.com/Lis-tavares/desafio-automacao-cypress-web.git
 ```
 
 Acesse a pasta do projeto:
