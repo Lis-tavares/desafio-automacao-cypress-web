@@ -1,7 +1,9 @@
 describe('Checkout', () => {
-  it('Deve validar produto incluído no carrinho na tela de pagamento', () => {
+  beforeEach(() => {
     cy.visit('/login', { timeout: 120000 })
+  })
 
+  it('Validar produto incluído no carrinho na tela de pagamento', () => {
     cy.get('[data-qa="login-email"]').type('testelis2026@teste.com.br')
     cy.get('[data-qa="login-password"]').type('teste123')
     cy.get('[data-qa="login-button"]').click()

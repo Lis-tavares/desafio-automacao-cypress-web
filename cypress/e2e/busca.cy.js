@@ -1,7 +1,9 @@
 describe('Busca de produtos', () => {
-  it('Deve realizar busca por produto existente', () => {
+  beforeEach(() => {
     cy.visit('/products')
+  })
 
+  it('Realizar busca por produto existente', () => {
     cy.get('#search_product').type('Blue Top')
     cy.get('#submit_search').click()
 

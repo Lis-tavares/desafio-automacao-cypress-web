@@ -1,7 +1,9 @@
 describe('Carrinho', () => {
-  it('Deve incluir produto no carrinho', () => {
+  beforeEach(() => {
     cy.visit('/products')
+  })
 
+  it('Incluir produto no carrinho', () => {
     cy.contains('Blue Top')
       .parents('.product-image-wrapper')
       .first()
